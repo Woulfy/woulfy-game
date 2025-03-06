@@ -71,30 +71,3 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
-
-# Ignorer les fichiers Unity globalement
-Woulfy/Library/
-Woulfy/Temp/
-Woulfy/Obj/
-Woulfy/Build/
-Woulfy/Builds/
-Woulfy/Logs/
-Woulfy/UserSettings/
-Woulfy/MemoryCaptures/
-Woulfy/Recordings/
-
-# Ignorer les fichiers IDE (VS Code, Rider, JetBrains, etc.)
-.vscode/
-.idea/
-*.iml
-*.csproj
-*.sln
-*.unityproj
-*.pidb
-*.pdb
-*.mdb
-*.opendb
-*.VC.db
-
-# Ignorer les fichiers système Mac/Linux
-.DS_Store
