@@ -1,10 +1,14 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.Rendering;
 
 public class Player : MonoBehaviour
 {
-    private void OnMove(InputValue inputValue)
+    public InputActionReference moveAction;
+    private void LateUpdate()
     {
-        Debug.Log(inputValue.Get<Vector2>());
+        var moveValue = moveAction.action.ReadValue<Vector2>();
+        Debug.Log(moveValue);
+        transform.position += new Vector3(moveValue.x, moveValue.y, 0);
     }
 }
