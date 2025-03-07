@@ -41,3 +41,11 @@ LightmapSnapshot/
 # Ignore local test artifacts
 *.tlog
 *.ipch
+
+# Unity Materials & Assets
+!Assets/**/*.mat
+!Assets/**/*.asset
+!Assets/**/*.png
+!Assets/**/*.jpg
+!Assets/**/*.tga
+!Assets/**/*.psd
